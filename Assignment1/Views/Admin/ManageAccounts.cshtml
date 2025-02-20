@@ -1,0 +1,36 @@
+﻿@model List<SystemAccount>
+
+<h2>Quản Lý Tài Khoản</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Vai Trò</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr>
+                <td>@account.AccountEmail</td>
+                <td>
+                    <form asp-action="UpdateRole" method="post">
+                        <input type="hidden" name="accountId" value="@account.AccountName" />
+                        <select name="newRole" class="form-control">
+                            <option value="1" selected="@(account.AccountRole == 1)">Staff</option>
+                            <option value="2" selected="@(account.AccountRole == 2)">Lecturer</option>
+                        </select>
+                        <button type="submit" class="btn btn-success">Cập Nhật</button>
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="DeleteAccount" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa?')">
+                        <input type="hidden" name="accountId" value="@account.AccountId" />
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

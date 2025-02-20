@@ -1,0 +1,16 @@
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\bin\Debug\net8.0\HuynmHE176493.Bussiness.deps.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\bin\Debug\net8.0\HuynmHE176493.Bussiness.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\bin\Debug\net8.0\HuynmHE176493.Bussiness.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\bin\Debug\net8.0\HuynmHE176493.Data.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\bin\Debug\net8.0\HuynmHE176493.Data.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.csproj.AssemblyReference.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.AssemblyInfoInputs.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.AssemblyInfo.cs
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.csproj.CoreCompileInputs.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.sourcelink.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE1.8876EFB7.Up2Date
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\refint\HuynmHE176493.Bussiness.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\HuynmHE176493.Bussiness.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Bussiness\obj\Debug\net8.0\ref\HuynmHE176493.Bussiness.dll

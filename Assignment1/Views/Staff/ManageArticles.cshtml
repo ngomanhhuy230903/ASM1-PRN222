@@ -1,0 +1,57 @@
+﻿@model List<NewsArticle>
+
+<h2>Quản Lý Tin Tức</h2>
+<button class="btn btn-primary" data-toggle="modal" data-target="#createModal">Thêm Mới</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tiêu Đề</th>
+            <th>Ngày Tạo</th>
+            <th>Trạng Thái</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.CreatedDate</td>
+                <td>@(article.NewsStatus == true ? "Hoạt động" : "Ẩn")</td>
+                <td>
+                    <button class="btn btn-warning" data-toggle="modal" data-target="#editModal-@article.NewsArticleId">Sửa</button>
+                    <form asp-action="DeleteArticle" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa?')">
+                        <input type="hidden" name="articleId" value="@article.NewsArticleId" />
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Popup Tạo Mới -->
+<div class="modal fade" id="createModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Thêm Tin Tức</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="CreateArticle" method="post">
+                    <div class="form-group">
+                        <label>Tiêu đề:</label>
+                        <input name="NewsTitle" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Nội dung:</label>
+                        <textarea name="NewsContent" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Lưu</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

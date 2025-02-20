@@ -1,0 +1,22 @@
+﻿@model List<NewsArticle>
+
+<h2>Danh Sách Tin Tức</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tiêu Đề</th>
+            <th>Ngày Tạo</th>
+            <th>Nội Dung</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.CreatedDate</td>
+                <td>@article.NewsContent</td>
+            </tr>
+        }
+    </tbody>
+</table>

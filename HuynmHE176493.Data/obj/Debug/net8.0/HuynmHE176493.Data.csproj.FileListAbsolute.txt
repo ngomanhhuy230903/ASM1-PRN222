@@ -1,0 +1,15 @@
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\bin\Debug\net8.0\HuynmHE176493.Data.deps.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\bin\Debug\net8.0\HuynmHE176493.Data.runtimeconfig.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\bin\Debug\net8.0\HuynmHE176493.Data.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\bin\Debug\net8.0\HuynmHE176493.Data.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.csproj.AssemblyReference.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.AssemblyInfoInputs.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.AssemblyInfo.cs
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.csproj.CoreCompileInputs.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.sourcelink.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\refint\HuynmHE176493.Data.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\HuynmHE176493.Data.genruntimeconfig.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Data\obj\Debug\net8.0\ref\HuynmHE176493.Data.dll
