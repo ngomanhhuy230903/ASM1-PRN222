@@ -1,0 +1,15 @@
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Business.deps.json
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Business.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Business.pdb
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Data.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Data.pdb
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.csproj.AssemblyReference.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.AssemblyInfoInputs.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.AssemblyInfo.cs
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.csproj.CoreCompileInputs.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE1.3B4FB456.Up2Date
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\refint\HuynmHE176493.Business.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.pdb
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\ref\HuynmHE176493.Business.dll

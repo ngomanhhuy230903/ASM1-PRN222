@@ -1,0 +1,45 @@
+﻿@model IEnumerable<HuynmHE176493.Data.Models.SystemAccount>
+
+@{
+    ViewData["Title"] = "Danh Sách Tài Khoản";
+}
+
+<h2>Danh Sách Tài Khoản</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">Tạo Tài Khoản</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr>
+                <td>@account.AccountId</td>
+                <td>@account.AccountEmail</td>
+                <td>@(account.AccountRole == 1 ? "Staff" : account.AccountRole == 2 ? "Lecturer" : "Admin")</td>
+                <td>
+                    @(account.IsActive ? "Hoạt động" : "Vô hiệu hóa")
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@account.AccountId" class="btn btn-info btn-sm">Chi tiết</a>
+                    <a asp-action="Edit" asp-route-id="@account.AccountId" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@account.AccountId" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa?');">Xóa</a>
+                    <form asp-action="ToggleStatus" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@account.AccountId" />
+                        <button type="submit" class="btn btn-secondary btn-sm">
+                            @(account.IsActive ? "Vô hiệu hóa" : "Kích hoạt")
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assignment1.Models;
-    public partial class Tag
-    {
-        public int TagId { get; set; }
+namespace HuynmHE176493.Data.Models;
 
-        public string TagName { get; set; } = null!;
+public partial class Tag
+{
+    public int TagId { get; set; }
 
-        public string? Note { get; set; }
+    public string TagName { get; set; } = null!;
 
-        public virtual ICollection<NewsArticle> NewsArticles { get; set; } = new List<NewsArticle>();
-    }
+    public string? Note { get; set; }
 
+    public virtual ICollection<NewsArticle> NewsArticles { get; set; } = new List<NewsArticle>();
+}

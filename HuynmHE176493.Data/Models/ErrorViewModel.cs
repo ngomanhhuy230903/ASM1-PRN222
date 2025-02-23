@@ -1,4 +1,4 @@
-namespace Assignment1.Models
+namespace HuynmHE176493.Data.Models
 {
     public class ErrorViewModel
     {

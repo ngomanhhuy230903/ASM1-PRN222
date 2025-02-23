@@ -1,0 +1,55 @@
+﻿@model IEnumerable<HuynmHE176493.Data.Models.NewsArticle>
+
+@{
+    ViewData["Title"] = "Quản Lý Tin Tức";
+}
+
+<h2>Quản Lý Tin Tức</h2>
+
+<!-- 🔍 Form Tìm Kiếm -->
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <input type="text" name="searchKeyword" class="form-control" placeholder="Nhập từ khóa..." />
+    </div>
+    <button type="submit" class="btn btn-primary">Tìm Kiếm</button>
+</form>
+
+<!-- 📌 Chỉ hiện nút "Thêm Tin Tức" nếu là Staff -->
+@if (Context.Session.GetString("UserRole") == "Staff")
+{
+    <a asp-action="Create" class="btn btn-success">➕ Thêm Tin Tức</a>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tiêu Đề</th>
+            <th>Ngày Tạo</th>
+            <th>Danh Mục</th>
+            <th>Trạng Thái</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.CreatedDate.ToString("dd/MM/yyyy")</td>
+                <td>@article.CategoryId</td>
+                <td>@(article.NewsStatus ? "Hoạt động" : "Ẩn")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@article.NewsArticleId" class="btn btn-info">📄 Chi Tiết</a>
+
+                    <!-- 📌 Chỉ hiển thị "Chỉnh Sửa" và "Xóa" nếu là Staff -->
+                    @if (Context.Session.GetString("UserRole") == "Staff")
+                    {
+                        <a asp-action="Edit" asp-route-id="@article.NewsArticleId" class="btn btn-warning">✏️ Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@article.NewsArticleId" class="btn btn-danger"
+                           onclick="return confirm('Bạn có chắc muốn xóa?');">🗑️ Xóa</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

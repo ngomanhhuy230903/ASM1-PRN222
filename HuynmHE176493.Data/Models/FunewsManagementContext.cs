@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Assignment1.Models;
+namespace HuynmHE176493.Data.Models;
 
 public partial class FunewsManagementContext : DbContext
 {
@@ -25,13 +25,13 @@ public partial class FunewsManagementContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DEV\\huy;uid=sa;pwd=123;database=FUNewsManagement;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=DEV\\huy;Initial Catalog=FUNewsManagement;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A2B72BCDE1B");
+            entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A2B51F116A2");
 
             entity.ToTable("Category");
 
@@ -47,7 +47,7 @@ public partial class FunewsManagementContext : DbContext
 
         modelBuilder.Entity<NewsArticle>(entity =>
         {
-            entity.HasKey(e => e.NewsArticleId).HasName("PK__NewsArti__4CD0926CFD6F8E2E");
+            entity.HasKey(e => e.NewsArticleId).HasName("PK__NewsArti__4CD0926CBF9C2064");
 
             entity.ToTable("NewsArticle");
 
@@ -89,7 +89,7 @@ public partial class FunewsManagementContext : DbContext
                         .HasConstraintName("FK__NewsTag__NewsArt__46E78A0C"),
                     j =>
                     {
-                        j.HasKey("NewsArticleId", "TagId").HasName("PK__NewsTag__9A875DC8051A1B6D");
+                        j.HasKey("NewsArticleId", "TagId").HasName("PK__NewsTag__9A875DC83DB5A57A");
                         j.ToTable("NewsTag");
                         j.IndexerProperty<int>("NewsArticleId").HasColumnName("NewsArticleID");
                         j.IndexerProperty<int>("TagId").HasColumnName("TagID");
@@ -98,11 +98,11 @@ public partial class FunewsManagementContext : DbContext
 
         modelBuilder.Entity<SystemAccount>(entity =>
         {
-            entity.HasKey(e => e.AccountId).HasName("PK__SystemAc__349DA5869A1DA1B6");
+            entity.HasKey(e => e.AccountId).HasName("PK__SystemAc__349DA5866F4381CF");
 
             entity.ToTable("SystemAccount");
 
-            entity.HasIndex(e => e.AccountEmail, "UQ__SystemAc__FC770D33FB22956D").IsUnique();
+            entity.HasIndex(e => e.AccountEmail, "UQ__SystemAc__FC770D338BFA752F").IsUnique();
 
             entity.Property(e => e.AccountId).HasColumnName("AccountID");
             entity.Property(e => e.AccountEmail).HasMaxLength(255);
@@ -112,7 +112,7 @@ public partial class FunewsManagementContext : DbContext
 
         modelBuilder.Entity<Tag>(entity =>
         {
-            entity.HasKey(e => e.TagId).HasName("PK__Tag__657CFA4C251A6B11");
+            entity.HasKey(e => e.TagId).HasName("PK__Tag__657CFA4C87958CC7");
 
             entity.ToTable("Tag");
 

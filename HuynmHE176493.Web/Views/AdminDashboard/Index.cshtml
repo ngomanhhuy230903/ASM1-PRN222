@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h1 class="text-center">Welcome to Admin Dashboard</h1>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="@Url.Action("Index", "Account")" class="btn btn-primary btn-block">Quản lý Tài khoản</a>
+        </div>
+        <div class="col-md-4">
+            <a href="@Url.Action("Index", "NewsArticle")" class="btn btn-success btn-block">Quản lý Bài viết</a>
+        </div>
+        <div class="col-md-4">
+            <a href="@Url.Action("Logout", "Login")" class="btn btn-danger btn-block">Đăng xuất</a>
+        </div>
+    </div>
+</div>

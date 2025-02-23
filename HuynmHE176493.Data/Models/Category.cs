@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Assignment1.Models;
-
-public partial class Category
+namespace HuynmHE176493.Data.Models
 {
-    public int CategoryId { get; set; }
+    public partial class Category
+    {
+        public int CategoryId { get; set; }  // ✅ Kiểm tra có dòng này không
+        public string CategoryName { get; set; } = null!;
+        public bool IsActive { get; set; }
+        public int? ParentCategoryId { get; set; }
 
-    public string CategoryName { get; set; } = null!;
-
-    public string? CategoryDescription { get; set; }
-
-    public int? ParentCategoryId { get; set; }
-
-    public bool IsActive { get; set; }
-
-    public virtual ICollection<Category> InverseParentCategory { get; set; } = new List<Category>();
-
-    public virtual ICollection<NewsArticle> NewsArticles { get; set; } = new List<NewsArticle>();
-
-    public virtual Category? ParentCategory { get; set; }
+        public virtual Category? ParentCategory { get; set; }
+        public virtual ICollection<Category> InverseParentCategory { get; set; } = new List<Category>();
+        public virtual ICollection<NewsArticle> NewsArticles { get; set; } = new List<NewsArticle>();
+    }
 }

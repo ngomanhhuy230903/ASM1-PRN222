@@ -1,2 +1,0 @@
-D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065\obj\Debug\ThangVSHE172065.Data.csproj.AssemblyReference.cache
-D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065\obj\Debug\ThangVSHE172065.Data.csproj.CoreCompileInputs.cache
