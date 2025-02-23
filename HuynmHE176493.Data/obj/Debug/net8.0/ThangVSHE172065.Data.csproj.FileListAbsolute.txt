@@ -1,0 +1,14 @@
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\bin\Debug\net8.0\ThangVSHE172065.Data.deps.json
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\bin\Debug\net8.0\ThangVSHE172065.Data.runtimeconfig.json
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\bin\Debug\net8.0\ThangVSHE172065.Data.dll
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\bin\Debug\net8.0\ThangVSHE172065.Data.pdb
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.csproj.AssemblyReference.cache
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.AssemblyInfoInputs.cache
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.AssemblyInfo.cs
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.csproj.CoreCompileInputs.cache
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.dll
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\refint\ThangVSHE172065.Data.dll
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.pdb
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ThangVSHE172065.Data.genruntimeconfig.cache
+D:\Ki7_FPT\PRN222\Assignment1\ThangVSHE172065.Data\obj\Debug\net8.0\ref\ThangVSHE172065.Data.dll

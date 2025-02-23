@@ -39,7 +39,7 @@ namespace Assignment1
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=News}/{action=Index}/{id?}");
+                pattern: "{controller=Account}/{action=Login}/{id?}");
 
             app.Run();
         }
