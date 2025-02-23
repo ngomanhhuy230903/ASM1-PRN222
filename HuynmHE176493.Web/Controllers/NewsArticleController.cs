@@ -36,7 +36,7 @@ namespace HuynmHE176493.Web.Controllers
 
         public IActionResult Create()
         {
-            if (HttpContext.Session.GetInt32("UserRole") != (int)AccountRole.Staff)
+            if (HttpContext.Session.GetInt32("UserRole") != 1) // 1 = Staff
             {
                 return RedirectToAction("Index");
             }
@@ -47,17 +47,20 @@ namespace HuynmHE176493.Web.Controllers
         [HttpPost]
         public IActionResult Create(NewsArticle article)
         {
-            if (HttpContext.Session.GetInt32("UserRole") != (int)AccountRole.Staff)
+            if (HttpContext.Session.GetInt32("UserRole") != 1) // 1 = Staff
             {
                 return RedirectToAction("Index");
             }
+
             if (ModelState.IsValid)
             {
                 _newsArticleService.Add(article);
                 return RedirectToAction(nameof(Index));
             }
+
             return View(article);
         }
+
 
         // ✅ Sửa bài viết (GET)
         public IActionResult Edit(int id)

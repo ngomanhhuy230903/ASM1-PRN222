@@ -35,21 +35,53 @@ namespace HuynmHE176493.Data.Repositories
 
         public void AddAccount(SystemAccount account)
         {
-            _context.SystemAccounts.Add(account);
-            _context.SaveChanges();
+            if (!_context.SystemAccounts.Any(a => a.AccountEmail == account.AccountEmail)) // Tránh trùng email
+            {
+                var newAccount = new SystemAccount
+                {
+                    AccountName = account.AccountName,
+                    AccountEmail = account.AccountEmail,
+                    AccountRole = account.AccountRole,
+                    AccountPassword = account.AccountPassword, // Nếu cần
+                    IsActive = account.IsActive
+                };
+                _context.SystemAccounts.Add(newAccount);
+                _context.SaveChanges();
+            }
         }
 
         public void UpdateAccount(SystemAccount account)
         {
-            _context.SystemAccounts.Update(account);
-            _context.SaveChanges();
+            var existingAccount = _context.SystemAccounts.Find(account.AccountId);
+            if (existingAccount != null)
+            {
+                // ✅ Chỉ cập nhật những giá trị được truyền vào
+                if (!string.IsNullOrEmpty(account.AccountName))
+                    existingAccount.AccountName = account.AccountName;
+
+                if (!string.IsNullOrEmpty(account.AccountEmail))
+                    existingAccount.AccountEmail = account.AccountEmail;
+
+                if (account.AccountRole != 0) // Giả sử 0 không phải giá trị hợp lệ
+                    existingAccount.AccountRole = account.AccountRole;
+
+                existingAccount.IsActive = account.IsActive; // Checkbox mặc định có giá trị true/false
+
+                _context.SaveChanges();
+            }
         }
+
 
         public void DeleteAccount(int id)
         {
             var account = _context.SystemAccounts.Find(id);
             if (account != null)
             {
+                // Nếu muốn xóa mềm (giữ dữ liệu nhưng ẩn tài khoản)
+                // account.IsDeleted = true; 
+                // _context.SystemAccounts.Update(account);
+
+                // Nếu muốn xóa hẳn
                 _context.SystemAccounts.Remove(account);
                 _context.SaveChanges();
             }

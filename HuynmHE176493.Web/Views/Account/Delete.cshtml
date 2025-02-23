@@ -6,21 +6,27 @@
 
 <h2>Xóa Tài Khoản</h2>
 
-<p>Bạn có chắc chắn muốn xóa tài khoản này?</p>
+<p class="text-warning">Bạn có chắc chắn muốn xóa tài khoản này?</p>
 
 <dl class="row">
     <dt class="col-sm-2">ID:</dt>
     <dd class="col-sm-10">@Model.AccountId</dd>
 
+    <dt class="col-sm-2">Tên:</dt>
+    <dd class="col-sm-10">@Model.AccountName</dd>
+
     <dt class="col-sm-2">Email:</dt>
     <dd class="col-sm-10">@Model.AccountEmail</dd>
 
-    <dt class="col-sm-2">Role:</dt>
+    <dt class="col-sm-2">Vai trò:</dt>
     <dd class="col-sm-10">@(Model.AccountRole == 1 ? "Staff" : Model.AccountRole == 2 ? "Lecturer" : "Admin")</dd>
+
+    <dt class="col-sm-2">Trạng thái:</dt>
+    <dd class="col-sm-10">@(Model.IsActive ? "Đang hoạt động" : "Bị vô hiệu hóa")</dd>
 </dl>
 
 <form asp-action="DeleteConfirmed" method="post">
     <input type="hidden" asp-for="AccountId" />
-    <button type="submit" class="btn btn-danger">Xóa</button>
-    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
 </form>

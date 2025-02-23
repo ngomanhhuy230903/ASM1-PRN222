@@ -1,3 +1,11 @@
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.AssemblyReference.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfoInputs.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfo.cs
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.CoreCompileInputs.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cs
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\appsettings.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.staticwebassets.runtime.json
@@ -147,14 +155,6 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\H
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Data.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Business.pdb
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Data.pdb
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.AssemblyReference.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfoInputs.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfo.cs
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.CoreCompileInputs.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cs
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets\msbuild.HuynmHE176493.Web.Microsoft.AspNetCore.StaticWebAssets.props

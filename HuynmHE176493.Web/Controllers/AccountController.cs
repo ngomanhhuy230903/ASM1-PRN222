@@ -26,6 +26,7 @@ namespace HuynmHE176493.Web.Controllers
             return View(account);
         }
 
+        // GET: Tạo tài khoản
         public IActionResult Create()
         {
             return View();
@@ -39,41 +40,55 @@ namespace HuynmHE176493.Web.Controllers
                 _accountService.CreateAccount(account);
                 return RedirectToAction("Index");
             }
+
             return View(account);
         }
 
+        // GET: Chỉnh sửa tài khoản
         public IActionResult Edit(int id)
         {
             var account = _accountService.GetAccountById(id);
-            if (account == null) return NotFound();
+            if (account == null)
+            {
+                return RedirectToAction("Index");
+            }
+
             return View(account);
         }
 
         [HttpPost]
         public IActionResult Edit(SystemAccount account)
         {
-            if (ModelState.IsValid)
-            {
-                _accountService.UpdateAccount(account);
-                return RedirectToAction("Index");
-            }
-            return View(account);
+            _accountService.UpdateAccount(account);            
+            return RedirectToAction("Index");
         }
 
+        // GET: Xác nhận xóa tài khoản
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var account = _accountService.GetAccountById(id);
-            if (account == null) return NotFound();
-            return View(account);
-        }
-
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
-        {
-            _accountService.DeleteAccount(id);
+            if (account != null)
+            {
+                _accountService.DeleteAccount(id);
+            }
             return RedirectToAction("Index");
         }
+
+
         [HttpPost]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var account = _accountService.GetAccountById(id);
+            if (account == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            _accountService.DeleteAccount(id);            
+            return RedirectToAction("Index");
+        }
+    [HttpPost]
         public IActionResult ToggleStatus(int id)
         {
             _accountService.ToggleAccountStatus(id);
