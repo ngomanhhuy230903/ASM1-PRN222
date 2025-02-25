@@ -8,10 +8,14 @@ namespace HuynmHE176493.Web.Controllers
     public class NewsArticleController : Controller
     {
         private readonly INewsArticleService _newsArticleService;
+        private readonly IEmailService _emailService;
+        private readonly IConfiguration _configuration;
 
-        public NewsArticleController(INewsArticleService newsArticleService)
+        public NewsArticleController(INewsArticleService newsArticleService, IEmailService emailService, IConfiguration configuration)
         {
             _newsArticleService = newsArticleService;
+            _emailService = emailService;
+            _configuration = configuration;
         }
 
         // GET: Hiển thị danh sách bài viết (có tìm kiếm)
@@ -46,7 +50,7 @@ namespace HuynmHE176493.Web.Controllers
 
         // POST: Tạo bài viết mới
         [HttpPost]
-        public IActionResult Create(NewsArticle article)
+        public async Task<IActionResult> Create(NewsArticle article)
         {
             if (HttpContext.Session.GetInt32("UserRole") != 1) // Chỉ Staff (role = 1) được tạo
             {
@@ -58,10 +62,37 @@ namespace HuynmHE176493.Web.Controllers
             {
                 return RedirectToAction("Index", "Login");
             }
-            ViewBag.Categories = new SelectList(_newsArticleService.GetCategories(), "CategoryId", "CategoryName"); // Chỉ lấy categories có IsActive = true
+
+            ViewBag.Categories = new SelectList(_newsArticleService.GetCategories(), "CategoryId", "CategoryName");
             article.CreatedById = userId.Value;
-            article.CreatedDate = DateTime.Now; // Gán thời gian tạo
+            article.CreatedDate = DateTime.Now;
             _newsArticleService.Add(article);
+
+            // Gửi email thông báo cho Admin
+            var adminEmail = _configuration["EmailSettings:AdminEmail"];
+            var author = _newsArticleService.GetById(article.NewsArticleId)?.CreatedBy?.AccountName ?? "Unknown";
+            var articleUrl = Url.Action("Details", "NewsArticle", new { id = article.NewsArticleId }, Request.Scheme);
+            var emailSubject = "New Article Published";
+            var emailBody = $@"
+                <h3>New Article Notification</h3>
+                <p>A new article has been published:</p>
+                <ul>
+                    <li><strong>Title:</strong> {article.NewsTitle}</li>
+                    <li><strong>Author:</strong> {author}</li>
+                    <li><strong>Link:</strong> <a href='{articleUrl}'>View Article</a></li>
+                </ul>
+                <p>Regards,<br>FUNews Management System</p>";
+
+            try
+            {
+                await _emailService.SendEmailAsync(adminEmail, emailSubject, emailBody);
+            }
+            catch (Exception ex)
+            {
+                // Log lỗi nếu cần (không làm gián đoạn quá trình tạo bài viết)
+                Console.WriteLine($"Failed to send email: {ex.Message}");
+            }
+
             return RedirectToAction("Index");
         }
 

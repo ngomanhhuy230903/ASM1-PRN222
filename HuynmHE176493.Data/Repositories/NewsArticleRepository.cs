@@ -22,7 +22,9 @@ namespace HuynmHE176493.Data.Repositories
 
         public NewsArticle GetById(int id)
         {
-            return _context.NewsArticles.FirstOrDefault(n => n.NewsArticleId == id);
+            return _context.NewsArticles
+                .Include(n => n.CreatedBy) // Include thông tin tác giả
+                .FirstOrDefault(n => n.NewsArticleId == id);
         }
 
         public void Add(NewsArticle article)

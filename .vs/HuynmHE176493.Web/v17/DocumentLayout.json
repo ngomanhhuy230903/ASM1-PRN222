@@ -1,145 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\",
+  "WorkspaceRootPath": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\admindashboard\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\admindashboard\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\iservice\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\iservice\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\repositories\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\repositories\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\repositories\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\irepository\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\irepository\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\controllers\\newsarticlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\admindashboard\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\admindashboard\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\iservice\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\iservice\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\irepository\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\irepository\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\irepository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\irepository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\irepository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\newsarticle\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\newsarticle\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\newsarticle\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\tag\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\tag\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\tag\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\tag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\tag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\tag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\iservice\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\iservice\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.business\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.business\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2527E7E4-B8CF-44E3-82F1-AA8494E43674}|HuynmHE176493.Business\\HuynmHE176493.Business.csproj|solutionrelative:huynmhe176493.business\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A56555-F400-4B7B-B25C-430CD90F8AE0}|HuynmHE176493.Data\\HuynmHE176493.Data.csproj|solutionrelative:huynmhe176493.data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|c:\\users\\huy\\source\\repos\\huynmhe176493.web\\huynmhe176493.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|d:\\desktop\\create with code\\asm1-prn222\\huynmhe176493.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F10AD0F-E86B-4D05-A178-ECC51A31B17B}|HuynmHE176493.Web\\HuynmHE176493.Web.csproj|solutionrelative:huynmhe176493.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -150,134 +154,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\EmailService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\EmailService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:25:23.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\IEmailService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\IEmailService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\IEmailService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\IService\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:24:59.282Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\appsettings.json",
               "RelativeDocumentMoniker": "HuynmHE176493.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\appsettings.json",
               "RelativeToolTip": "HuynmHE176493.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-25T04:51:54.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Report.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\AdminDashboard\\Report.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\AdminDashboard\\Report.cshtml",
               "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\AdminDashboard\\Report.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\AdminDashboard\\Report.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\AdminDashboard\\Report.cshtml",
               "RelativeToolTip": "HuynmHE176493.Web\\Views\\AdminDashboard\\Report.cshtml",
               "ViewState": "AQIAACAAAAAAAAAAAAAqwEwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:51:10.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminDashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
-              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAmwDwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:47:31.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "INewsArticleService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\INewsArticleService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\INewsArticleService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\INewsArticleService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\IService\\INewsArticleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:03:51.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NewsArticleService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\Services\\NewsArticleService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\NewsArticleService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\Services\\NewsArticleService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\Services\\NewsArticleService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAswDkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:04:06.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:51:10.572Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Program.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Program.cs",
-              "RelativeToolTip": "HuynmHE176493.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABGAAAA",
+              "Title": "NewsArticleController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
+              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAqwGAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:16:23.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:18:02.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:16:32.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:01:24.732Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\IAccountService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\IAccountService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\IService\\IAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\AdminDashboardController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwDwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:38:46.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:47:31.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "NewsArticleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Repositories\\NewsArticleRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Repositories\\NewsArticleRepository.cs",
               "RelativeDocumentMoniker": "HuynmHE176493.Data\\Repositories\\NewsArticleRepository.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Repositories\\NewsArticleRepository.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Repositories\\NewsArticleRepository.cs",
               "RelativeToolTip": "HuynmHE176493.Data\\Repositories\\NewsArticleRepository.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAmwFoAAAA0AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T04:04:24.892Z",
               "EditorCaption": ""
@@ -285,331 +249,350 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "INewsArticleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABVAAAA",
+              "Title": "INewsArticleService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\INewsArticleService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\INewsArticleService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\INewsArticleService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\IService\\INewsArticleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:28:10.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:03:51.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAA8wNIAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "NewsArticleService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\NewsArticleService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\NewsArticleService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\NewsArticleService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\Services\\NewsArticleService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAswDkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:38:58.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:04:06.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAiwGQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:37:23.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SystemAccount.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\SystemAccount.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\SystemAccount.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\SystemAccount.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\Models\\SystemAccount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:36:58.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NewsArticle.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\NewsArticle.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\NewsArticle.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\NewsArticle.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\Models\\NewsArticle.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:46:50.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:43:32.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:18:02.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\AdminDashboard\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwB4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T04:16:32.742Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "NewsArticleController.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
-              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\NewsArticleController.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAiwJcAAAABAAAA",
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\IAccountService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\IAccountService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\IAccountService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\IService\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:01:24.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:38:46.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "INewsArticleRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\IRepository\\INewsArticleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:28:10.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAmwNIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:38:58.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAiwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:37:23.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\SystemAccount.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\SystemAccount.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\Models\\SystemAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:36:58.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\NewsArticle.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\Models\\NewsArticle.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:46:50.075Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCsAAAABAAAA",
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:40:56.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:43:32.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\Services\\AccountService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\Services\\AccountService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAwwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:38:20.891Z",
-              "EditorCaption": ""
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T04:40:56.549Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\AccountService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\AccountService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\Services\\AccountService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA/wD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:38:26.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:15:27.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:38:20.891Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACMAAAAAAAAAAAAqwC8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:15:59.102Z",
-              "EditorCaption": ""
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\IRepository\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:38:26.092Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "History.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCwAAAAGAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:29:47.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:15:27.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwC8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T04:15:59.102Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\NewsArticle\\History.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:16:09.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:29:47.371Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:15:43.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:16:09.729Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
-              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAGAAAA",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T04:15:09.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:15:43.02Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "TagController.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\TagController.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\TagController.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\TagController.cs",
-              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\TagController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAqwGgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:14:28.239Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
+              "RelativeToolTip": "HuynmHE176493.Web\\Views\\Tag\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T04:15:09.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "TagService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\Services\\TagService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\TagService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\Services\\TagService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\Services\\TagService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwC4AAAABAAAA",
+              "Title": "TagController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\TagController.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\TagController.cs",
+              "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\TagController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAqwGgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:14:09.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:14:28.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "ITagService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\ITagService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\ITagService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\ITagService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\IService\\ITagService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Title": "TagService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\TagService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\Services\\TagService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\Services\\TagService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\Services\\TagService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwC4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:13:50.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:14:09.928Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "TagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Repositories\\TagRepository.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Repositories\\TagRepository.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Repositories\\TagRepository.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\Repositories\\TagRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwDsAAAABAAAA",
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\ITagService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\ITagService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\ITagService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\IService\\ITagService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:12:09.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:13:50.216Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "ITagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Repositories\\TagRepository.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\Repositories\\TagRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwDsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:11:54.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:12:09.448Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\Tag.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\Tag.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\Tag.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\Models\\Tag.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\IRepository\\ITagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:10:07.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:11:54.196Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\IService\\ICategoryService.cs",
-              "RelativeToolTip": "HuynmHE176493.Business\\IService\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\Tag.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\Tag.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\Models\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:03:37.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:10:07.182Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Data\\Models\\Category.cs",
-              "RelativeToolTip": "HuynmHE176493.Data\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Business\\IService\\ICategoryService.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "HuynmHE176493.Business\\IService\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:01:45.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T04:03:37.58Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "HuynmHE176493.Data\\Models\\Category.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Data\\Models\\Category.cs",
+              "RelativeToolTip": "HuynmHE176493.Data\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:01:45.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HuynmHE176493.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "HuynmHE176493.Web\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T04:01:11.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-02-25T04:01:11.64Z"
             }
           ]
         },

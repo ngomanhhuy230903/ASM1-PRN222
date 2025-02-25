@@ -1,11 +1,3 @@
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.AssemblyReference.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfoInputs.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfo.cs
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.CoreCompileInputs.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cache
-C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cs
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\appsettings.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.staticwebassets.runtime.json
@@ -16,7 +8,9 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\H
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.pdb
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Humanizer.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\MailKit.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -52,6 +46,7 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\M
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\MimeKit.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.CodeDom.dll
@@ -68,6 +63,7 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\S
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\System.Text.Encodings.Web.dll
@@ -148,6 +144,7 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\r
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
@@ -155,6 +152,14 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\H
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Data.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Business.pdb
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Data.pdb
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.AssemblyReference.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfoInputs.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfo.cs
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.CoreCompileInputs.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cache
+C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cs
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets\msbuild.HuynmHE176493.Web.Microsoft.AspNetCore.StaticWebAssets.props
@@ -171,3 +176,182 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\r
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.pdb
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.genruntimeconfig.cache
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Web\obj\Debug\net8.0\ref\HuynmHE176493.Web.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\appsettings.Development.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\appsettings.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.staticwebassets.runtime.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.exe
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.deps.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.runtimeconfig.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Web.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Azure.Core.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Azure.Identity.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Humanizer.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\MailKit.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\MimeKit.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.ClientModel.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.CodeDom.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Text.Json.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Business.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Data.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Business.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\bin\Debug\net8.0\HuynmHE176493.Data.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.AssemblyReference.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfoInputs.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.AssemblyInfo.cs
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.csproj.CoreCompileInputs.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.RazorAssemblyInfo.cs
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.sourcelink.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.build.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.development.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets\msbuild.HuynmHE176493.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.HuynmHE176493.Web.props
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HuynmHE176493.Web.props
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HuynmHE176493.Web.props
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\scopedcss\bundle\HuynmHE176493.Web.styles.css
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\scopedcss\projectbundle\HuynmHE176493.Web.bundle.scp.css
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE1.A104F5A6.Up2Date
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\refint\HuynmHE176493.Web.dll
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.pdb
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\HuynmHE176493.Web.genruntimeconfig.cache
+D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Web\obj\Debug\net8.0\ref\HuynmHE176493.Web.dll
