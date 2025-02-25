@@ -1,0 +1,14 @@
+﻿@model HuynmHE176493.Data.Models.Tag
+@{
+    ViewData["Title"] = "Xóa Tag";
+}
+
+<h2>Xác Nhận Xóa Tag</h2>
+
+<p>Bạn có chắc muốn xóa tag "<strong>@Model.TagName</strong>" không?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="TagId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

@@ -6,14 +6,29 @@
 
 <div class="container mt-4">
     <div class="row">
-        <div class="col-md-4">
-            <a href="@Url.Action("Index", "Account")" class="btn btn-primary btn-block">Quản lý Tài khoản</a>
-        </div>
-        <div class="col-md-4">
-            <a href="@Url.Action("Index", "NewsArticle")" class="btn btn-success btn-block">Quản lý Bài viết</a>
-        </div>
-        <div class="col-md-4">
-            <a href="@Url.Action("Logout", "Login")" class="btn btn-danger btn-block">Đăng xuất</a>
-        </div>
+        @if (ViewBag.UserRole == 0) // Chỉ hiển thị với Admin (role = 0)
+        {
+            <div class="col-md-4">
+                <a href="@Url.Action("Index", "Account")" class="btn btn-primary btn-block">Quản lý Tài khoản</a>
+            </div>
+            <div class="col-md-4">
+                <a href="@Url.Action("Report", "AdminDashboard")" class="btn btn-info btn-block">Báo Cáo Thống Kê</a>
+            </div>
+        }
+        @if (ViewBag.UserRole == 1) // Chỉ hiển thị với Staff (role = 1)
+        {
+            <div class="col-md-3">
+                <a href="@Url.Action("Index", "NewsArticle")" class="btn btn-success btn-block">Quản lý Bài viết</a>
+            </div>
+            <div class="col-md-3">
+                <a href="@Url.Action("Index", "Category")" class="btn btn-info btn-block">Quản lý Danh mục</a>
+            </div>
+            <div class="col-md-3">
+                <a href="@Url.Action("History", "NewsArticle")" class="btn btn-primary btn-block">Lịch Sử Bài Viết</a>
+            </div>
+            <div class="col-md-3">
+                <a href="@Url.Action("Index", "Tag")" class="btn btn-warning btn-block">Quản lý Tags</a>
+            </div>
+        }
     </div>
 </div>

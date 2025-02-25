@@ -1,56 +1,63 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HuynmHE176493.Data.IRepository;
 using HuynmHE176493.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
-using HuynmHE176493.Data.IRepository;
 
 namespace HuynmHE176493.Data.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
         private readonly FunewsManagementContext _context;
-        private readonly DbSet<Category> _dbSet;
 
         public CategoryRepository(FunewsManagementContext context)
         {
             _context = context;
-            _dbSet = context.Set<Category>();
         }
 
         public IEnumerable<Category> GetAll()
         {
-            return _dbSet.ToList();
+            return _context.Categories.Include(c => c.NewsArticles).ToList();
         }
 
         public Category GetById(int id)
         {
-            return _dbSet.Find(id);
+            return _context.Categories.Include(c => c.NewsArticles).FirstOrDefault(c => c.CategoryId == id);
         }
 
-        public void Add(Category entity)
+        public void Add(Category category)
         {
-            _dbSet.Add(entity);
+            _context.Categories.Add(category);
             _context.SaveChanges();
         }
 
-        public void Update(Category entity)
+        public void Update(Category category)
         {
-            _dbSet.Update(entity);
-            _context.SaveChanges();
-        }
-
-        public void Delete(int id)
-        {
-            var entity = _dbSet.Find(id);
-            if (entity != null)
+            var existingCategory = _context.Categories.Find(category.CategoryId);
+            if (existingCategory != null)
             {
-                _dbSet.Remove(entity);
+                existingCategory.CategoryName = category.CategoryName;
+                existingCategory.CategoryDescription = category.CategoryDescription;
+                existingCategory.ParentCategoryId = category.ParentCategoryId;
+                existingCategory.IsActive = category.IsActive;
                 _context.SaveChanges();
             }
         }
 
-        public IEnumerable<Category> Find(Expression<Func<Category, bool>> predicate)
+        public void Delete(int id)
         {
-            return _dbSet.Where(predicate).ToList();
+            var category = _context.Categories.Find(id);
+            if (category != null)
+            {
+                _context.Categories.Remove(category);
+                _context.SaveChanges();
+            }
+        }
+
+        public bool HasNewsArticles(int categoryId)
+        {
+            return _context.NewsArticles.Any(n => n.CategoryId == categoryId);
         }
     }
 }

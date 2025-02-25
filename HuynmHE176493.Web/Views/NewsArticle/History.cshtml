@@ -1,0 +1,45 @@
+﻿@model IEnumerable<HuynmHE176493.Data.Models.NewsArticle>
+
+@{
+    ViewData["Title"] = "Lịch Sử Bài Viết";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Lịch Sử Bài Viết Đã Tạo</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Tiêu Đề</th>
+                    <th>Ngày Tạo</th>
+                    <th>Danh Mục</th>
+                    <th>Trạng Thái</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var article in Model)
+                {
+                    <tr>
+                        <td>@article.NewsTitle</td>
+                        <td>@article.CreatedDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                        <td>@(article.Category?.CategoryName ?? "Không có danh mục")</td>
+                        <td>@(article.NewsStatus ? "Hoạt động" : "Ẩn")</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@article.NewsArticleId" class="btn btn-info btn-sm">Chi Tiết</a>
+                            <a asp-action="Edit" asp-route-id="@article.NewsArticleId" class="btn btn-warning btn-sm">Sửa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-center">Bạn chưa tạo bài viết nào.</p>
+    }
+
+    <a asp-controller="AdminDashboard" asp-action="Index" class="btn btn-secondary mt-3">Quay Lại Dashboard</a>
+</div>

@@ -44,5 +44,17 @@ namespace HuynmHE176493.Business.Services
         {
             return _newsArticleRepository.Search(keyword);
         }
+        public IEnumerable<Category> GetCategories()
+        {
+            return _newsArticleRepository.GetCategories();
+        }
+        public IEnumerable<NewsArticle> GetArticlesByCreator(int createdById)
+        {
+            return _newsArticleRepository.GetArticlesByCreator(createdById);
+        }
+        public IDictionary<string, int> GetReportData(DateTime startDate, DateTime endDate)
+        {
+            return _newsArticleRepository.GetReportData(startDate, endDate);
+        }
     }
 }

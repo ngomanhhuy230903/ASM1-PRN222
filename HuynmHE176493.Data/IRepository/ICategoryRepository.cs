@@ -11,6 +11,6 @@ namespace HuynmHE176493.Data.IRepository
         void Add(Category entity);
         void Update(Category entity);
         void Delete(int id);
-        IEnumerable<Category> Find(Expression<Func<Category, bool>> predicate);
+        bool HasNewsArticles(int categoryId);
     }
 }

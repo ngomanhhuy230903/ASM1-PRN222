@@ -18,7 +18,10 @@ namespace HuynmHE176493.Web.Controllers
 
         public IActionResult Index()
         {
-            var articles = _newsArticleService.GetAll().OrderByDescending(n => n.CreatedDate).ToList();
+            var articles = _newsArticleService.GetAll()
+                .Where(n => n.NewsStatus == true)
+                .OrderByDescending(n => n.CreatedDate)
+                .ToList();
             return View(articles);
         }
 

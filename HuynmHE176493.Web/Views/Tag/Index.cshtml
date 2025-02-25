@@ -1,0 +1,44 @@
+﻿@model IEnumerable<HuynmHE176493.Data.Models.Tag>
+@{
+    ViewData["Title"] = "Quản Lý Tags";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Danh Sách Tags</h1>
+    <a asp-action="Create" class="btn btn-success mb-3">Tạo Tag Mới</a>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Tên Tag</th>
+                    <th>Ghi Chú</th> <!-- Thay Description bằng Note -->
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var tag in Model)
+                {
+                    <tr>
+                        <td>@tag.TagName</td>
+                        <td>@tag.Note</td> <!-- Thay Description bằng Note -->
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@tag.TagId" class="btn btn-primary btn-sm">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@tag.TagId" class="btn btn-danger btn-sm">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-center">Chưa có tag nào.</p>
+    }
+</div>

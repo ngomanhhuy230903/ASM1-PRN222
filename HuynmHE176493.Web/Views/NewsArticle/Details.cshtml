@@ -10,9 +10,8 @@
     <tr><th>Tiêu Đề:</th><td>@Model.NewsTitle</td></tr>
     <tr><th>Ngày Tạo:</th><td>@Model.CreatedDate.ToString("dd/MM/yyyy")</td></tr>
     <tr><th>Nội Dung:</th><td>@Model.NewsContent</td></tr>
-    <tr><th>Danh Mục:</th><td>@Model.CategoryId</td></tr>
+    <tr><th>Danh Mục:</th><td>@(((Dictionary<int, string>)ViewBag.Categories)[Model.CategoryId])</td></tr>
     <tr><th>Trạng Thái:</th><td>@(Model.NewsStatus ? "Hoạt động" : "Ẩn")</td></tr>
 </table>
 
 <button class="btn btn-secondary" onclick="history.back()">Quay Lại</button>
-

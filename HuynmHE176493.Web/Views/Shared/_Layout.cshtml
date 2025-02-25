@@ -25,9 +25,19 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="NewsArticle" asp-action="Index">Tin tức</a>
                         </li>
+                        <!-- Thêm nút dẫn tới Admin Dashboard chỉ cho Admin và Staff -->
+                        @{
+                            int? userRole = Context.Session.GetInt32("UserRole");
+                        }
+                        @if (userRole.HasValue && (userRole == 0 || userRole == 1)) // Admin (0) hoặc Staff (1)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AdminDashboard" asp-action="Index">Dashboard</a>
+                            </li>
+                        }
                     </ul>
 
-                    <!-- 🔹 Hiển thị Đăng nhập hoặc Greeting User -->
+                    <!-- Hiển thị Đăng nhập hoặc Greeting User -->
                     <ul class="navbar-nav">
                         @{
                             var userEmail = Context.Session.GetString("UserEmail");
@@ -65,7 +75,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - FUNews Management - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            © 2025 - FUNews Management - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

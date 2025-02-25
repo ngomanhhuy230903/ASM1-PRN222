@@ -1,0 +1,14 @@
+﻿@model HuynmHE176493.Data.Models.Category
+@{
+    ViewData["Title"] = "Xóa Danh Mục";
+}
+
+<h2>Xác Nhận Xóa Danh Mục</h2>
+
+<p>Bạn có chắc muốn xóa danh mục "<strong>@Model.CategoryName</strong>" không?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="CategoryId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

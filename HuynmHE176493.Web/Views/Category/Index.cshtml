@@ -1,0 +1,46 @@
+﻿@model IEnumerable<HuynmHE176493.Data.Models.Category>
+@{
+    ViewData["Title"] = "Quản Lý Danh Mục";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Danh Sách Danh Mục</h1>
+    <a asp-action="Create" class="btn btn-success mb-3">Tạo Danh Mục Mới</a>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Tên Danh Mục</th>
+                    <th>Mô Tả</th>
+                    <th>Trạng Thái</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.CategoryName</td>
+                        <td>@category.CategoryDescription</td>
+                        <td>@(category.IsActive ? "Hoạt động" : "Ẩn")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@category.CategoryId" class="btn btn-primary btn-sm">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@category.CategoryId" class="btn btn-danger btn-sm">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-center">Chưa có danh mục nào.</p>
+    }
+</div>

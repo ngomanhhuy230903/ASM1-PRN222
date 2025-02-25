@@ -1,0 +1,77 @@
+﻿@model IDictionary<string, int>
+
+@{
+    ViewData["Title"] = "Báo Cáo Thống Kê";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Báo Cáo Thống Kê</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <form asp-action="Report" method="post" class="mb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="startDate">Từ ngày</label>
+                <input type="date" name="startDate" class="form-control" value="@ViewBag.StartDate" required />
+            </div>
+            <div class="col-md-4">
+                <label for="endDate">Đến ngày</label>
+                <input type="date" name="endDate" class="form-control" value="@ViewBag.EndDate" required />
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Tạo Báo Cáo</button>
+            </div>
+        </div>
+    </form>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Thông Tin</th>
+                <th>Số Lượng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tổng số bài viết</td>
+                <td>@Model["TotalArticles"]</td>
+            </tr>
+            <tr>
+                <td>Bài viết hoạt động</td>
+                <td>@Model["ActiveArticles"]</td>
+            </tr>
+            <tr>
+                <td>Bài viết không hoạt động</td>
+                <td>@Model["InactiveArticles"]</td>
+            </tr>
+            <tr>
+                <td>Bài viết được tạo mới</td>
+                <td>@Model["ArticlesCreated"]</td>
+            </tr>
+            <tr>
+                <td>Bài viết đã chỉnh sửa</td>
+                <td>@Model["ArticlesUpdated"]</td>
+            </tr>
+            @foreach (var item in Model.Where(kvp => kvp.Key.StartsWith("Category_")))
+            {
+                <tr>
+                    <td>Bài viết trong danh mục @item.Key.Replace("Category_", "")</td>
+                    <td>@item.Value</td>
+                </tr>
+            }
+            @foreach (var item in Model.Where(kvp => kvp.Key.StartsWith("Creator_")))
+            {
+                <tr>
+                    <td>Bài viết bởi @item.Key.Replace("Creator_", "")</td>
+                    <td>@item.Value</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Index" class="btn btn-secondary mt-3">Quay Lại Dashboard</a>
+</div>
