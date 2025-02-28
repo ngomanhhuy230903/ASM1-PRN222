@@ -1,10 +1,12 @@
 ﻿using HuynmHE176493.Business.IService;
 using HuynmHE176493.Data.Models;
+using HuynmHE176493.Web.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HuynmHE176493.Web.Controllers
 {
+    [AdminAuthFilter]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;

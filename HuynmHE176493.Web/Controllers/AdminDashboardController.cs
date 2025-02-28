@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HuynmHE176493.Business.IService;
 using System;
-
+using HuynmHE176493.Web.Filters;
 namespace HuynmHE176493.Web.Controllers
 {
+    [AdminAuthFilter]
     public class AdminDashboardController : Controller
     {
         private readonly INewsArticleService _newsArticleService;
@@ -16,16 +17,28 @@ namespace HuynmHE176493.Web.Controllers
         public IActionResult Index()
         {
             int? userRole = HttpContext.Session.GetInt32("UserRole");
-            ViewBag.UserRole = userRole.HasValue ? userRole.Value : -1;
+
+            // Kiểm tra nếu user không đăng nhập hoặc role không phải 0 (Admin) hoặc 1 (Staff)
+            if (!userRole.HasValue || (userRole != 0 && userRole != 1))
+            {
+                TempData["ErrorMessage"] = "Bạn không có quyền truy cập trang này.";
+                return RedirectToAction("Index", "Login");
+            }
+
+            ViewBag.UserRole = userRole.Value;
             return View();
         }
 
         // GET: Hiển thị form báo cáo
         public IActionResult Report()
         {
-            if (HttpContext.Session.GetInt32("UserRole") != 0) // Chỉ Admin (role = 0) được xem
+            int? userRole = HttpContext.Session.GetInt32("UserRole");
+
+            // Kiểm tra nếu user không đăng nhập hoặc không phải Admin (role = 0)
+            if (!userRole.HasValue || userRole != 0)
             {
-                return RedirectToAction("Index", "Home");
+                TempData["ErrorMessage"] = "Bạn không có quyền truy cập trang này.";
+                return RedirectToAction("Index", "Login");
             }
 
             // Mặc định hiển thị báo cáo cho 30 ngày gần nhất
@@ -41,9 +54,13 @@ namespace HuynmHE176493.Web.Controllers
         [HttpPost]
         public IActionResult Report(DateTime startDate, DateTime endDate)
         {
-            if (HttpContext.Session.GetInt32("UserRole") != 0) // Chỉ Admin (role = 0) được xem
+            int? userRole = HttpContext.Session.GetInt32("UserRole");
+
+            // Kiểm tra nếu user không đăng nhập hoặc không phải Admin (role = 0)
+            if (!userRole.HasValue || userRole != 0)
             {
-                return RedirectToAction("Index", "Home");
+                TempData["ErrorMessage"] = "Bạn không có quyền truy cập trang này.";
+                return RedirectToAction("Index", "Login");
             }
 
             if (startDate > endDate)

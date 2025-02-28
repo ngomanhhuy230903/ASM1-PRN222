@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HuynmHE176493.Business.IService;
 using HuynmHE176493.Data.Models;
+using HuynmHE176493.Web.Filters;
 
 namespace HuynmHE176493.Web.Controllers
 {
+    [AdminAuthFilter]
     public class AccountController : Controller
     {
         private readonly IAccountService _accountService;

@@ -13,19 +13,3 @@ C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\refint\HuynmHE176493.Business.dll
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.pdb
 C:\Users\huy\source\repos\HuynmHE176493.Web\HuynmHE176493.Business\obj\Debug\net8.0\ref\HuynmHE176493.Business.dll
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Business.deps.json
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Business.dll
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Business.pdb
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Data.dll
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\bin\Debug\net8.0\HuynmHE176493.Data.pdb
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.csproj.AssemblyReference.cache
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.GeneratedMSBuildEditorConfig.editorconfig
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.AssemblyInfoInputs.cache
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.AssemblyInfo.cs
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.csproj.CoreCompileInputs.cache
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.sourcelink.json
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE1.3B4FB456.Up2Date
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.dll
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\refint\HuynmHE176493.Business.dll
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\HuynmHE176493.Business.pdb
-D:\Desktop\Create with Code\ASM1-PRN222\HuynmHE176493.Business\obj\Debug\net8.0\ref\HuynmHE176493.Business.dll

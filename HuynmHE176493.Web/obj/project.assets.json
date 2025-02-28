@@ -5036,11 +5036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\HuynmHE176493.Web.csproj",
+      "projectUniqueName": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\HuynmHE176493.Web.csproj",
       "projectName": "HuynmHE176493.Web",
-      "projectPath": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\HuynmHE176493.Web.csproj",
+      "projectPath": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\HuynmHE176493.Web.csproj",
       "packagesPath": "C:\\Users\\huy\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Web\\obj\\",
+      "outputPath": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5062,8 +5062,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\HuynmHE176493.Business.csproj": {
-              "projectPath": "D:\\Desktop\\Create with Code\\ASM1-PRN222\\HuynmHE176493.Business\\HuynmHE176493.Business.csproj"
+            "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\HuynmHE176493.Business.csproj": {
+              "projectPath": "C:\\Users\\huy\\source\\repos\\HuynmHE176493.Web\\HuynmHE176493.Business\\HuynmHE176493.Business.csproj"
             }
           }
         }

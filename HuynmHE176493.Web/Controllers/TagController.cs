@@ -1,9 +1,11 @@
 ﻿using HuynmHE176493.Business.IService;
 using HuynmHE176493.Data.Models;
+using HuynmHE176493.Web.Filters;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HuynmHE176493.Web.Controllers
 {
+    [AdminAuthFilter]
     public class TagController : Controller
     {
         private readonly ITagService _tagService;

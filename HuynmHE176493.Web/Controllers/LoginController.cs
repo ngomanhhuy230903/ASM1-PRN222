@@ -1,54 +1,61 @@
-﻿using HuynmHE176493.Business.IService;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using HuynmHE176493.Business.IService;
 using Microsoft.Extensions.Configuration;
 
-public class LoginController : Controller
+namespace HuynmHE176493.Web.Controllers
 {
-    private readonly IAccountService _accountService;
-    private readonly IConfiguration _configuration;
-
-    public LoginController(IAccountService accountService, IConfiguration configuration)
+    public class LoginController : Controller
     {
-        _accountService = accountService;
-        _configuration = configuration;
-    }
+        private readonly IAccountService _accountService;
+        private readonly IConfiguration _configuration;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public IActionResult Login(string email, string password)
-    {
-        var user = _accountService.ValidateUser(email, password);
-
-        // ✅ Nếu là Admin mặc định trong appsettings.json
-        if (user == null && _accountService.IsDefaultAdmin(email, password))
+        public LoginController(IAccountService accountService, IConfiguration configuration)
         {
-            HttpContext.Session.SetInt32("UserRole", 0); // 0 là quyền Admin
-            HttpContext.Session.SetString("UserEmail", email);
-
-            return RedirectToAction("Index", "AdminDashboard"); // 🔹 Chuyển đúng trang Admin
+            _accountService = accountService;
+            _configuration = configuration;
         }
 
-        // ✅ Nếu tài khoản tồn tại trong DB
-        if (user != null)
+        public IActionResult Index()
         {
-            HttpContext.Session.SetInt32("UserID", user.AccountId);
-            HttpContext.Session.SetInt32("UserRole", user.AccountRole);
-            HttpContext.Session.SetString("UserEmail", user.AccountEmail);
-
-            return RedirectToAction("Index", "Home");
+            // Lấy thông báo lỗi từ Cookie nếu có
+            if (Request.Cookies["ErrorMessage"] != null)
+            {
+                ViewBag.ErrorMessage = Request.Cookies["ErrorMessage"];
+                Response.Cookies.Delete("ErrorMessage"); // Xóa Cookie sau khi dùng
+            }
+            return View();
         }
 
-        ViewBag.ErrorMessage = "Email hoặc mật khẩu không đúng!";
-        return View("Index");
-    }
+        [HttpPost]
+        public IActionResult Login(string email, string password)
+        {
+            var user = _accountService.ValidateUser(email, password);
 
-    public IActionResult Logout()
-    {
-        HttpContext.Session.Clear();
-        return RedirectToAction("Index", "Login");
+            // Nếu là Admin mặc định trong appsettings.json
+            if (user == null && _accountService.IsDefaultAdmin(email, password))
+            {
+                HttpContext.Session.SetInt32("UserRole", 0); // 0 là quyền Admin
+                HttpContext.Session.SetString("UserEmail", email);
+                return RedirectToAction("Index", "AdminDashboard");
+            }
+
+            // Nếu tài khoản tồn tại trong DB
+            if (user != null)
+            {
+                HttpContext.Session.SetInt32("UserID", user.AccountId);
+                HttpContext.Session.SetInt32("UserRole", user.AccountRole);
+                HttpContext.Session.SetString("UserEmail", user.AccountEmail);
+                return RedirectToAction("Index", "Home");
+            }
+
+            ViewBag.ErrorMessage = "Email hoặc mật khẩu không đúng!";
+            return View("Index");
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Login");
+        }
     }
 }

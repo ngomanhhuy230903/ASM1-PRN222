@@ -12,7 +12,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<FunewsManagementContext>(options =>
    options.UseSqlServer(builder.Configuration.GetConnectionString("FUNewsManagement")));
-// Đăng ký các repository (Singleton Pattern)
+
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<INewsArticleRepository, NewsArticleRepository>();
@@ -23,7 +23,8 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<ITagService, TagService>();
 builder.Services.AddScoped<INewsArticleService, NewsArticleService>();
-builder.Services.AddScoped<IEmailService, EmailService>();
+
+builder.Services.AddSingleton<IEmailService, EmailService>();
 
 // ✅ Thêm Authentication (Sử dụng Cookie)
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -32,7 +33,17 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Account/Login"; // Trang đăng nhập
         options.AccessDeniedPath = "/Account/AccessDenied"; // Trang lỗi quyền hạn
     });
+//builder.Services.AddControllersWithViews(options =>
+//{
+//    options.Filters.Add<AdminAuthorizationFilter>(); // Áp dụng cho tất cả Controller
+//}).AddSessionStateTempDataProvider();
 
+//builder.Services.AddSession(options =>
+//{
+//    options.IdleTimeout = TimeSpan.FromMinutes(30);
+//    options.Cookie.HttpOnly = true;
+//    options.Cookie.IsEssential = true;
+//});
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
